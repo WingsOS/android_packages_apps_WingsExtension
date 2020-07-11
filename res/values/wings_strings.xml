@@ -49,6 +49,11 @@
     
     <!-- Sub category -->
     <string name="general_category">General</string>
+    <string name="statusbar_icons">Icons</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
 
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">Font style</string>
