@@ -16,8 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+     <!-- Wings Padding -->
      <dimen name="wings_radius">28dp</dimen>
      <dimen name="wings_radius_merge">5dp</dimen>
      <dimen name="wings_pref_horizontal_padding">16dp</dimen>
      <dimen name="wings_pref_horizontal_padding-negative">-16dp</dimen>
+
+     <!-- Banner -->
+     <dimen name="card_margin_start_aqua">20dp</dimen>
+     <dimen name="card_margin_end_aqua">20dp</dimen>
 </resources>
