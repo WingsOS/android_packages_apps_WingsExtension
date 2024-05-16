@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2024 The WingsOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Text Styles -->
+    <style name="wingsTextPrimary">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="wingsTextPrimaryMedium" parent="wingsTextPrimary">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="wingsTextSecondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!-- Dashboard -->
+    <style name="wingsDashboardPreferenceSingle" parent="wingsPreferenceSingle">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="wingsDashboardPreferenceTop" parent="wingsPreferenceTop">
+        <item name="android:layout_marginTop">@dimen/wings_pref_horizontal_padding</item>
+    </style>
+
+    <style name="wingsDashboardPreferenceBottom" parent="wingsPreferenceBottom">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="wingsDashboardPreferenceFull" parent="wingsPreferenceFull">
+        <item name="android:layout_marginTop">@dimen/wings_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="wingsDashboardPreferenceFullAccent" parent="wingsDashboardPreferenceFull">
+        <item name="android:background">@drawable/wings_preference_background_full_accent</item>
+    </style>
+
+    <style name="wingsDashboardPreferencePhone" parent="wingsDashboardPreferenceTop">
+        <item name="android:background">@drawable/wings_preference_background_phone</item>
+    </style>
+
+    <!-- General -->
+    <style name="wingsPreferenceSingle" parent="wingsPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/wings_preference_background_single</item>
+    </style>
+
+    <style name="wingsPreferenceBase">
+        <item name="android:layout_marginStart">@dimen/wings_pref_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/wings_pref_horizontal_padding</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="wingsPreferenceTop" parent="wingsPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/wings_preference_background_top</item>
+    </style>
+
+    <style name="wingsPreferenceMiddle" parent="wingsPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:background">@drawable/wings_preference_background_middle</item>
+    </style>
+
+    <style name="wingsPreferenceBottom" parent="wingsPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/wings_preference_background_bottom</item>
+    </style>
+
+    <style name="wingsPreferenceFull" parent="wingsPreferenceBase">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/wings_preference_background_full</item>
+    </style>
+
+    <style name="wingsPreferenceFullAccent" parent="wingsPreferenceBase">
+        <item name="android:layout_marginTop">@dimen/wings_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/wings_preference_background_full_accent</item>
+    </style>
+</resources>
